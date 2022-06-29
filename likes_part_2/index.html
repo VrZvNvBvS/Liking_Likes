@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Liking Likes part 2</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="nav">
+                <h1>Network</h1>
+            </div>
+            <h1 class="heading">Your Feed</h1>
+
+            <div id="mainBody">
+
+                <div class="profile">
+                    <img src="./icon.jpg" />
+                    <br>
+                    <br>
+                    <a class="avatarLink" href="#">Add an avatar</a>
+                    <br>
+                    <br>
+                    <h1>James Doe</h1>
+                </div>
+
+
+                <div id="right_column">
+
+                    <div class="namesList">
+                        <div class="row">
+                            <h1>Neil M</h1>
+                            <p>
+                            <form>
+                                <input class="counter" type="text" id="counter" value="" /><strong> like(s)</strong>
+                                <input class="btn" type="button" onclick="add1()" value="Like" />
+                            </form>
+                            </p>
+                        </div>
+                        <p>
+                            I just set up this new discord bot, let me<br />
+                            know what you all think. <a href="#">link</a>
+                        </p>
+                    </div>
+
+
+                    <div class="namesList">
+                        <div class="row">
+                            <h1>Nichole K</h1>
+                            <p>
+                            <form>
+                                <input class="counter" type="text" id="counter2" value="" /><strong> like(s)</strong>
+                                <input class="btn" type="button" onclick="add2()" value="Like" />
+                            </form>
+                            </p>
+                        </div>
+                        <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+                    </div>
+
+
+                    <div class="namesList">
+                        <div class="row">
+                            <h1>Jim R</h1>
+                            <p>
+                            <form>
+                                <input class="counter" type="text" id="counter3" value="" /><strong> like(s)</strong>
+                                <input class="btn" type="button" onclick="add3()" value="Like" />
+                            </form>
+                            </p>
+                        </div>
+                        <p>
+                            I can't stop listening to the <a href="#">new album.</a> <br> Who else is
+                            liking it?
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <script src="script.js"></script>
+    </body>
+
+</html>
